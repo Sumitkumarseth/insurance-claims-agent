@@ -1,0 +1,146 @@
+FIRST NOTICE OF LOSS (FNOL)
+AUTOMOBILE INSURANCE CLAIM
+
+===============================================
+POLICY INFORMATION
+===============================================
+Policy Number: POL-2024-001234
+Carrier: ACORD Insurance Company
+Policyholder Name: Rajesh Kumar
+Line of Business: Automobile Insurance
+Effective Dates: 01/15/2023 to 01/15/2024
+
+===============================================
+INSURED CONTACT INFORMATION
+===============================================
+Name: Rajesh Kumar
+Date of Birth: 05/20/1985
+Marital Status: Married
+Primary Phone: +91-9876543210
+Primary Email: rajesh.kumar@example.com
+Secondary Email: rajesh.work@company.com
+Address: Flat 304, Green Park Apartments
+         Sector 15, Rohini
+         New Delhi - 110085
+
+===============================================
+INCIDENT INFORMATION
+===============================================
+Date of Loss: 02/01/2024
+Time of Loss: 14:30 IST
+Location of Loss: 
+  Street: Ring Road near Pitampura Metro Station
+  City: New Delhi
+  State: Delhi
+  ZIP: 110034
+  Country: India
+
+Police/Fire Department Contacted: Yes
+Report Number: DL/2024/ACI/00789
+
+===============================================
+DESCRIPTION OF ACCIDENT
+===============================================
+I was driving on Ring Road heading towards Pitampura when a car from the left lane suddenly changed lanes without signaling. I applied brakes but couldn't avoid collision. The impact was on the front-left side of my vehicle. The other driver admitted fault at the scene. Both vehicles had moderate damage. No injuries were sustained by either party. Weather conditions were clear and road was dry.
+
+===============================================
+INSURED VEHICLE INFORMATION
+===============================================
+Year: 2020
+Make: Hyundai
+Model: Creta
+Body Type: SUV
+Plate Number: DL-08-CX-5678
+Owner's Name: Rajesh Kumar
+Driver's Name: Rajesh Kumar (same as owner)
+Driver's License Number: DL-0720240012345
+State of License: Delhi
+Purpose of Use: Personal
+Estimated Damage: ₹45,000
+
+===============================================
+DESCRIBE DAMAGE
+===============================================
+Front-left bumper cracked, headlight assembly broken, left front fender dented, hood slightly bent near left edge. Paint damage visible on driver's side door. No mechanical damage observed. Vehicle is drivable.
+
+===============================================
+THIRD PARTY VEHICLE/PROPERTY DAMAGED
+===============================================
+Vehicle Involved: Yes
+Year: 2019
+Make: Maruti
+Model: Swift
+Plate Number: DL-03-AB-1234
+State: Delhi
+
+Driver's Name: Priya Sharma
+Driver's Address: B-42, Lajpat Nagar, New Delhi - 110024
+Primary Phone: +91-9988776655
+Email: priya.sharma@email.com
+
+Carrier/Agency Name: Star Insurance Ltd
+NAIC Code: 12345
+Policy Number: STAR-2023-789456
+
+Owner's Name: Priya Sharma
+Primary Phone: +91-9988776655
+
+Estimated Damage to Third Party: ₹25,000
+
+===============================================
+WITNESSES OR PASSENGERS
+===============================================
+Witness 1:
+Name: Amit Verma
+Phone: +91-9123456789
+Relationship: Pedestrian/Bystander
+
+Witness 2:
+Name: Suresh Patel (Shop Owner nearby)
+Phone: +91-8765432109
+
+===============================================
+CLAIMANT INFORMATION
+===============================================
+Name of Insured: Rajesh Kumar
+Contact Number: +91-9876543210
+Email: rajesh.kumar@example.com
+
+===============================================
+REMARKS/ADDITIONAL INFORMATION
+===============================================
+Both parties exchanged insurance information at the scene. Police report filed. Photos taken of both vehicles and accident scene. The other driver (Priya Sharma) was cooperative and acknowledged changing lanes without proper signaling. No traffic violations issued to either party. Vehicle towed to authorized service center (Green Auto Works, Rohini) for detailed assessment. Expecting repair estimates within 2-3 business days.
+
+I was not under the influence of any substances. Both drivers had valid licenses and insurance. Road conditions were normal with no construction or unusual circumstances.
+
+===============================================
+SUBMITTED BY
+===============================================
+Name: Rajesh Kumar
+Date: 02/01/2024
+Time: 18:45 IST
+Signature: [Digitally Signed]
+
+===============================================
+ATTACHMENTS
+===============================================
+1. Photos of damaged vehicle (front and side view)
+2. Photos of third-party vehicle damage
+3. Photos of accident scene
+4. Police report copy (FIR No. DL/2024/ACI/00789)
+5. Driver's license copy
+6. Vehicle registration copy
+7. Insurance policy document
+
+===============================================
+FOR OFFICE USE ONLY
+===============================================
+Claim Received Date: 
+Claim Number:
+Assigned Adjuster:
+Initial Assessment:
+Routing Decision:
+
+===============================================
+END OF FIRST NOTICE OF LOSS
+===============================================
