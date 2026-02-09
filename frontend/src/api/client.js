@@ -2,11 +2,8 @@ import axios from 'axios'
 import { useAuthStore } from '../store'
 import toast from 'react-hot-toast'
 
-const API_URL = import.meta.env.PROD
-  ? '/api'
-  : 'http://localhost:5000/api'
-
-
+// 🔥 LIVE BACKEND URL (Render)
+const API_URL = import.meta.env.VITE_API_URL
 
 const apiClient = axios.create({
   baseURL: API_URL,
@@ -15,7 +12,7 @@ const apiClient = axios.create({
   },
 })
 
-// Request interceptor to add auth token
+// 🔐 Token interceptor
 apiClient.interceptors.request.use(
   (config) => {
     const token = useAuthStore.getState().token
@@ -24,17 +21,18 @@ apiClient.interceptors.request.use(
     }
     return config
   },
-  (error) => {
-    return Promise.reject(error)
-  }
+  (error) => Promise.reject(error)
 )
 
-// Response interceptor for error handling
+// ❌ Error handler
 apiClient.interceptors.response.use(
   (response) => response,
   (error) => {
-    const message = error.response?.data?.message || error.message || 'Something went wrong'
-    
+    const message =
+      error.response?.data?.message ||
+      error.message ||
+      'Something went wrong'
+
     if (error.response?.status === 401) {
       useAuthStore.getState().logout()
       toast.error('Session expired. Please login again.')
@@ -42,12 +40,12 @@ apiClient.interceptors.response.use(
     } else {
       toast.error(message)
     }
-    
+
     return Promise.reject(error)
   }
 )
 
-// Auth API
+// 🔐 AUTH
 export const authAPI = {
   register: (data) => apiClient.post('/auth/register', data),
   login: (data) => apiClient.post('/auth/login', data),
@@ -56,25 +54,32 @@ export const authAPI = {
   updatePassword: (data) => apiClient.put('/auth/updatepassword', data),
 }
 
-// Claims API
+// 📄 CLAIMS
 export const claimsAPI = {
-  processClaim: (formData) => 
+  processClaim: (formData) =>
     apiClient.post('/claims/process', formData, {
       headers: { 'Content-Type': 'multipart/form-data' },
     }),
   getAllClaims: (params) => apiClient.get('/claims', { params }),
   getClaimById: (id) => apiClient.get(`/claims/${id}`),
-  updateClaimStatus: (id, data) => apiClient.patch(`/claims/${id}/status`, data),
-  runFraudAnalysis: (id) => apiClient.post(`/claims/${id}/fraud-check`),
-  generateSummary: (id) => apiClient.get(`/claims/${id}/summary`),
-  deleteClaim: (id) => apiClient.delete(`/claims/${id}`),
+  updateClaimStatus: (id, data) =>
+    apiClient.patch(`/claims/${id}/status`, data),
+  runFraudAnalysis: (id) =>
+    apiClient.post(`/claims/${id}/fraud-check`),
+  generateSummary: (id) =>
+    apiClient.get(`/claims/${id}/summary`),
+  deleteClaim: (id) =>
+    apiClient.delete(`/claims/${id}`),
 }
 
-// Analytics API
+// 📊 ANALYTICS
 export const analyticsAPI = {
-  getDashboard: (params) => apiClient.get('/analytics/dashboard', { params }),
-  getTrends: (params) => apiClient.get('/analytics/trends', { params }),
-  getPerformance: () => apiClient.get('/analytics/performance'),
+  getDashboard: (params) =>
+    apiClient.get('/analytics/dashboard', { params }),
+  getTrends: (params) =>
+    apiClient.get('/analytics/trends', { params }),
+  getPerformance: () =>
+    apiClient.get('/analytics/performance'),
 }
 
 export default apiClient
